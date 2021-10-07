@@ -1,19 +1,22 @@
 ## Updating
  
 1. update the artworks table so that the piece of art with the id of 7 has a name of 'Saint George and the Dragon'
-```update artworks 
+```
+update artworks 
 set name = 'Saint George and the Dragon'
 where artwork_id = 7; 
 ```
 
 2. update the artworks table so that the piece of art with the id of 1 has a painter id (foreign key) of of 1.
-```update artworks 
+```
+update artworks 
 set painter_id = 1 
 where artwork_id = 1; 
 ```
 
 3. update the artworks table so that the piece of art with the id of 31 has a year of 1962. 
-```update artworks 
+```
+update artworks 
 set year = 1962 
 where artwork_id = 31;
 ```
